@@ -1,0 +1,10 @@
+
+State Machine - |Project|control:c0|current_state
+Name current_state.change_x_y current_state.erase current_state.draw_dino current_state.menu current_state.ground current_state.start_wait current_state.start 
+current_state.start 0 0 0 0 0 0 0 
+current_state.start_wait 0 0 0 0 0 1 1 
+current_state.ground 0 0 0 0 1 0 1 
+current_state.menu 0 0 0 1 0 0 1 
+current_state.draw_dino 0 0 1 0 0 0 1 
+current_state.erase 0 1 0 0 0 0 1 
+current_state.change_x_y 1 0 0 0 0 0 1 
